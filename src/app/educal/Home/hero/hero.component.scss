@@ -1,0 +1,31 @@
+.register-form {
+  max-width: 80%;
+  text-align: center;
+}
+.signup-input {
+  width: 100%;
+}
+.email-container {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+.mt-c {
+  margin-top: 2rem;
+}
+.left {
+  text-align: left;
+}
+.form-control {
+  font-size: 1.2rem;
+  padding: 0.575rem 0.75rem;
+}
+
+input.ng-touched.ng-invalid{
+  border-color: #BE1809;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 10px #BE1809;
+  // transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.invalid-input{
+  color: #BE1809;
+}
